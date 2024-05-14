@@ -11,6 +11,11 @@
 		BA96F6C72BF40F7C00550D24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA96F6C62BF40F7C00550D24 /* ContentView.swift */; };
 		BA96F6C92BF40F7C00550D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA96F6C82BF40F7C00550D24 /* Assets.xcassets */; };
 		BA96F6CC2BF40F7C00550D24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA96F6CB2BF40F7C00550D24 /* Preview Assets.xcassets */; };
+		BA96F6D82BF41C0500550D24 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = BA96F6D62BF41C0500550D24 /* astronauts.json */; };
+		BA96F6D92BF41C0500550D24 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = BA96F6D72BF41C0500550D24 /* missions.json */; };
+		BA96F6DB2BF41C4D00550D24 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA96F6DA2BF41C4D00550D24 /* Astronaut.swift */; };
+		BA96F6DD2BF41C9500550D24 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA96F6DC2BF41C9500550D24 /* Bundle-Decodable.swift */; };
+		BA96F6DF2BF4227B00550D24 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA96F6DE2BF4227B00550D24 /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		BA96F6C62BF40F7C00550D24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA96F6C82BF40F7C00550D24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA96F6CB2BF40F7C00550D24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA96F6D62BF41C0500550D24 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		BA96F6D72BF41C0500550D24 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		BA96F6DA2BF41C4D00550D24 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		BA96F6DC2BF41C9500550D24 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		BA96F6DE2BF4227B00550D24 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				BA96F6C42BF40F7C00550D24 /* MoonshotApp.swift */,
 				BA96F6C62BF40F7C00550D24 /* ContentView.swift */,
+				BA96F6DA2BF41C4D00550D24 /* Astronaut.swift */,
+				BA96F6DE2BF4227B00550D24 /* Mission.swift */,
+				BA96F6DC2BF41C9500550D24 /* Bundle-Decodable.swift */,
+				BA96F6D62BF41C0500550D24 /* astronauts.json */,
+				BA96F6D72BF41C0500550D24 /* missions.json */,
 				BA96F6C82BF40F7C00550D24 /* Assets.xcassets */,
 				BA96F6CA2BF40F7C00550D24 /* Preview Content */,
 			);
@@ -125,7 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA96F6D82BF41C0500550D24 /* astronauts.json in Resources */,
 				BA96F6CC2BF40F7C00550D24 /* Preview Assets.xcassets in Resources */,
+				BA96F6D92BF41C0500550D24 /* missions.json in Resources */,
 				BA96F6C92BF40F7C00550D24 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA96F6DB2BF41C4D00550D24 /* Astronaut.swift in Sources */,
 				BA96F6C72BF40F7C00550D24 /* ContentView.swift in Sources */,
 				BA96F6C52BF40F7C00550D24 /* MoonshotApp.swift in Sources */,
+				BA96F6DF2BF4227B00550D24 /* Mission.swift in Sources */,
+				BA96F6DD2BF41C9500550D24 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
